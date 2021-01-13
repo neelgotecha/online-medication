@@ -1,0 +1,24 @@
+{
+  "name": "online-medication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelgotecha/online-medication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neelgotecha/online-medication/issues"
+  },
+  "homepage": "https://github.com/neelgotecha/online-medication#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11",
+    "validator": "^13.5.2"
+  }
+}
