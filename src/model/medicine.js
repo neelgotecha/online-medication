@@ -32,7 +32,8 @@ const Medicine = mongoose.model('Medicine',{
         default:0
     },
     prescribedOn:{
-        type: Date
+        type: Date,
+        default: Date.now
     }
 })
 module.exports = Medicine
